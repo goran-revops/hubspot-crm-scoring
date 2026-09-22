@@ -1,0 +1,10 @@
+.env
+data/
+out/
+*.db
+config/hubspot_portal_semantics.json
+config/hubspot_lists.json
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.venv/

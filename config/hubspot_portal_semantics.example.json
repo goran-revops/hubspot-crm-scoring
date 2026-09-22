@@ -1,0 +1,44 @@
+{
+  "account_status_property": "",
+  "closed_won_without_customer_behavior": "hard_skip",
+  "configured_list_member_behavior": "hard_skip",
+  "contact_email_behavior": "evidence_only",
+  "customer_lifecycle_values": ["customer", "evangelist"],
+  "customer_status_fields": {
+    "hs_current_customer": ["yes"]
+  },
+  "deal_stages": {},
+  "identity_error_behavior": "hard_skip",
+  "inactive_status_values": [],
+  "list_membership_error_behavior": "hard_skip",
+  "lookup_error_behavior": "hard_skip",
+  "meaningful_activity_properties": {
+    "companies": [
+      "notes_last_contacted",
+      "hs_last_sales_activity_timestamp",
+      "hs_last_booked_meeting_date",
+      "engagements_last_meeting_booked",
+      "hs_last_logged_call_date",
+      "hs_last_logged_outgoing_email_date",
+      "hs_sales_email_last_replied",
+      "hs_latest_meeting_activity"
+    ],
+    "contacts": [
+      "notes_last_contacted",
+      "hs_last_sales_activity_timestamp",
+      "engagements_last_meeting_booked",
+      "hs_sales_email_last_replied",
+      "hs_latest_meeting_activity"
+    ]
+  },
+    "notes": [
+    "Run discover once so deal_stages is filled from your portal.",
+    "hs_current_customer is filled by discover when your portal has that HubSpot property.",
+    "To skip inactive accounts, set account_status_property to your status field and list the inactive values in inactive_status_values.",
+    "hs_lastmodifieddate is not meaningful activity.",
+    "notes_last_updated within 60 seconds of createdate is record creation, not activity."
+  ],
+  "unknown_stage_behavior": "hard_skip",
+  "unresolved_evidence_behavior": "hard_skip",
+  "version": 1
+}
