@@ -129,3 +129,7 @@ python -m pytest
 ```
 
 Tests do not call HubSpot.
+
+## License
+
+MIT
